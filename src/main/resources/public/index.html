@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>AppMicroServicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Cargat React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="conexion.js"></script>
+</head>
+
+<body>
+<div id="root" style="text-align:center"></div>
+<div id="parrafo">
+    <form>
+        <div class="form-group">
+            <input type="text" id="domTextElement" ></input>
+            <small id="emailHelp" class="form-text text-muted">Ingrese por favor el identificar a buscar.</small>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onClick="getValueInput()">Buscar</button>
+    </form>
+</div>
+<h5>Tabla <small class="text-muted">Se muestra como resultado la tabla con el identificador a buscar.</small></h5>
+<div id="tablaIdentificador"></div>
+</body>
+
+</html>
