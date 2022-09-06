@@ -1,5 +1,7 @@
 # TAREA-INTRODUCCI-N-MVN-GIT-Y-HEROKU
 
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://almacenamientoapp.herokuapp.com/)
+
 Su compañía lo ha seleccionado para construir una aplicación que demuestre una simple arquitectura de Microservicios desplegada en Heroku para uno de los clientes más importantes.
 
 Así, han decidido que usted debe construir una aplicación para consultar el mercado de valores de las acciones negociadas en Bolsa.La aplicación recibirá el identificador de una acción, por ejemplo “MSFT” para Microsoft  y deberá mostrar el histórico de la valoración intra-día, diaria, semanal y mensual. Para esto utilice el API gratuito de https://www.alphavantage.co/documentation (Puede crear una cuenta para obtener la llave para realizar consultas). Se le pide que su implementación sea eficiente en cuanto a recursos así que debe implementar un Caché que permita evitar hacer consultas repetidas al API externo. Finalmente se le pide que muestre como se puede enlazar con otro proveedor de servicios, en este caso utilice llamados como los siguientes (https://api.polygon.io/v1/open-close/AAPL/2020-10-14?adjusted=true&apiKey=*) y revisé la documentación en https://polygon.io/docs/stocks/getting-started.
@@ -25,3 +27,5 @@ Así, han decidido que usted debe construir una aplicación para consultar el me
 9.Se debe poder extender fácilmente, por ejemplo, es fácil agregar nuevas funcionalidades, o es fácil cambiar el proveedor de una funcionalidad.
 
 10.Debe utilizar maven para gestionar el ciclo de vida, git y github para almacenar al código fuente y heroku como plataforma de producción.
+![image](https://user-images.githubusercontent.com/54339107/188753302-0ae51d66-08f2-490f-bd5e-e4d36fbcc293.png)
+
