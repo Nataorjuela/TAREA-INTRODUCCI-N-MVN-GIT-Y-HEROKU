@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 
 /**
  * Clase HttpStockService que abre un objeto tipo Http que recorre un String de tipo JSON
- * @author Jose Maria Castro Ortega
  *
  */
 
